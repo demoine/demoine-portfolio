@@ -18,9 +18,7 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            I’m a designer currently building interactive kiosks at Visix. I
-            studied Interactive Media Design at The Art Institute of Atlanta. I
-            also enjoy photography, woodworking & voice acting.
+            About
           </h2>
           <figure className="kg-card kg-image-card">
             <Img
