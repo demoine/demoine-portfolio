@@ -18,37 +18,25 @@ const AboutPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
+            I’m a designer currently building interactive kiosks at Visix. I
+            studied Interactive Media Design at The Art Institute of Atlanta. I
+            also enjoy photography, woodworking & voice acting.
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            I’m a designer currently building interactive kiosks at Visix. I
+            studied Interactive Media Design at The Art Institute of Atlanta.
+            Aside from work I enjoy photography, woodworking & voice acting.
           </p>
-          <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
-          <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
-          </p>
+
+          <h3 id="dynamic-styles">Skills</h3>
+          <div></div>
         </div>
       </article>
     </Layout>
@@ -62,11 +50,9 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
-    ) {
+    benchAccounting: file(relativePath: { eq: "profile-pic.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 1360) {
+        fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
         }
       }
