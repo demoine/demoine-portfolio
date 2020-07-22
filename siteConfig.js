@@ -1,7 +1,7 @@
 module.exports = {
   name: "DeMoine Lovelace",
   shortName: "DeMoine",
-  description: "Designer with Front End Programming Skills.",
+  description: "Interaction Designer with Front End Programming Skills.",
   url: "https://demoine.com", // Domain of your site without prefix!
   prefix: "/",
   author: "DeMoine Lovelace",
