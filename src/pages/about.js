@@ -20,21 +20,210 @@ const AboutPage = ({ data }, location) => {
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             About
           </h2>
-          <figure className="kg-card kg-image-card">
+          <figure className="kg-card kg-image-card profile-pic">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
           </figure>
 
-          <p>
-            I’m a designer currently building interactive kiosks at Visix. I
-            studied Interactive Media Design at The Art Institute of Atlanta.
-            Aside from work I enjoy photography, woodworking & voice acting.
+          <p className="description">
+            Designer currently crafting interactive kiosks at Visix. Studied
+            Interactive Media Design at The Art Institute of Atlanta. Aside from
+            work I enjoy spending time with family, photography, woodworking,
+            and voice acting.
           </p>
 
           <h3 id="dynamic-styles">Skills</h3>
-          <div></div>
+          <div>
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  auto
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </article>
     </Layout>

@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import logo from "../../content/assets/logo.png"
+
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -27,19 +29,22 @@ const Layout = props => {
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
+                <Link to={`/`}>Work</Link>
               </li>
               <li className="nav-about" role="menuitem">
                 <Link to={`/about`}>About</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-clients" role="menuitem">
+                <Link to={`/clients`}>Clients</Link>
+              </li>
+              <li className="nav-contact" role="menuitem">
+                <Link to={`/contact`}>Contact</Link>
               </li>
             </ul>
           </nav>
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
-              {title}
+              <img src={logo} alt="Logo" />
             </Link>
           </div>
           <div className="site-head-right">
@@ -52,14 +57,6 @@ const Layout = props => {
               >
                 LinkedIn
               </a>
-              <a
-                href="https://www.facebook.com/demoine"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
             </div>
           </div>
         </div>
@@ -70,15 +67,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>
       </footer>
     </div>
   )
