@@ -409,7 +409,8 @@ body {
 
 .post-card {
   position: relative;
-  flex: 1 1 50%;
+  flex: 1 1 40%;
+  margin: 0.5%;
   display: flex;
   position: relative;
   height: 35vw;
