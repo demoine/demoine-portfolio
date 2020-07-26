@@ -1,6 +1,6 @@
 ---
 title: Playground
-date: "2019-05-06"
+date: "2020-07-20"
 thumbnail: ./playground-thumbnail.png
 description: A collection of interaction prototypes that I've created in my free time.
 ---

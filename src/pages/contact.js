@@ -8,6 +8,9 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
+import FacebookIcon from "@material-ui/icons/Facebook"
+import InstagramIcon from "@material-ui/icons/Instagram"
+
 const ElementsPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
@@ -22,160 +25,31 @@ const ElementsPage = ({ data }, location) => {
         <div className="post-content-body">
           <h2 id="heading-level-2">Contact</h2>
 
-          <div className="row">
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-            <div className="col">
-              <div
-                style={{
-                  padding: "1rem 0",
-                  textAlign: "center",
-                  background: "#eee",
-                }}
-              >
-                auto
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <form method="post" action="#">
+          - <form method="post" action="#">
++ <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
++   <input type="hidden" name="bot-field" />
++   <input type="hidden" name="form-name" value="contact" />
+  ...
             <div className="row gtr-uniform">
-              <div className="col-6 col-12-xsmall">
+              <div className="col-12 ">
                 <input
                   type="text"
                   name="demo-name"
                   id="demo-name"
-                  defaultValue
+                  defaultValue=""
                   placeholder="Name"
                 />
               </div>
-              <div className="col-6 col-12-xsmall">
+              <div className="col-12 ">
                 <input
                   type="email"
                   name="demo-email"
                   id="demo-email"
-                  defaultValue
+                  defaultValue=""
                   placeholder="Email"
                 />
               </div>
-              {/* Break */}
-              <div className="col-12">
-                <select name="demo-category" id="demo-category">
-                  <option value>- Category -</option>
-                  <option value={1}>Manufacturing</option>
-                  <option value={1}>Shipping</option>
-                  <option value={1}>Administration</option>
-                  <option value={1}>Human Resources</option>
-                </select>
-              </div>
-              {/* Break */}
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-low"
-                  name="demo-priority"
-                  defaultChecked
-                />
-                <label htmlFor="demo-priority-low">Low</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-normal"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-normal">Normal</label>
-              </div>
-              <div className="col-4 col-12-small">
-                <input
-                  type="radio"
-                  id="demo-priority-high"
-                  name="demo-priority"
-                />
-                <label htmlFor="demo-priority-high">High</label>
-              </div>
-              {/* Break */}
-              <div className="col-6 col-12-small">
-                <input type="checkbox" id="demo-copy" name="demo-copy" />
-                <label htmlFor="demo-copy">Email me a copy</label>
-              </div>
-              <div className="col-6 col-12-small">
-                <input
-                  type="checkbox"
-                  id="demo-human"
-                  name="demo-human"
-                  defaultChecked
-                />
-                <label htmlFor="demo-human">I am a human</label>
-              </div>
+
               {/* Break */}
               <div className="col-12">
                 <textarea

@@ -1,6 +1,6 @@
 ---
 title: Barbershop Kiosk
-date: "2019-05-03"
+date: "2020-07-23"
 thumbnail: ./barbershop-thumbnail.png
 description: For in the true nature of things, if we rightly consider, every green tree is far more glorious than if it were made of gold and silver.
 ---

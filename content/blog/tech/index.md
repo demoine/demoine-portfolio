@@ -1,6 +1,6 @@
 ---
 title: Corporate Headquarters App
-date: "2020-01-01"
+date: "2020-07-24"
 thumbnail: ./tech-thumbnail.png
 description: Corporate headquarters app that allows users to locate available shared spaces throught the building.
 ---

@@ -8,11 +8,14 @@
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-feed": "^2.2.0",
     "gatsby-plugin-google-analytics": "^2.0.19",
     "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-material-ui": "^2.1.9",
     "gatsby-plugin-netlify": "^2.0.17",
     "gatsby-plugin-offline": "^2.1.0",
     "gatsby-plugin-postcss": "^2.0.7",

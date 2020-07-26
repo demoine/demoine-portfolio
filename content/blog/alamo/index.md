@@ -1,6 +1,6 @@
 ---
 title: St. Phillips College Interactive Wayfinding
-date: "2019-03-01"
+date: "2020-07-22"
 description: Interactive wayfinding kiosk that allows visitors to locate events and destinations around the campus.
 thumbnail: ./alamo-thumbnail.png
 ---

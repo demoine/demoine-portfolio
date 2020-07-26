@@ -21,6 +21,9 @@ const ElementsPage = ({ data }, location) => {
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="heading-level-2">Clients</h2>
+          <p style={{ textAlign: "center" }}>
+            Below is a list of clients I've had the pleasure of working with.
+          </p>
           <hr />
 
           <div className="row">

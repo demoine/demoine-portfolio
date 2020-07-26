@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import logo from "../../content/assets/logo.png"
 
+import LinkedInIcon from "@material-ui/icons/LinkedIn"
+
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -55,7 +57,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn
+                <LinkedInIcon color="action" style={{ fontSize: 30 }} />
               </a>
             </div>
           </div>

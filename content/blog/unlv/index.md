@@ -1,6 +1,6 @@
 ---
 title: UNLV Kiosk & Web App
-date: "2019-02-01"
+date: "2020-07-21"
 thumbnail: ./unlv-thumbnail.png
 description: Kiosk that allows users in the College of Hospitality building to locate faculty, staff, rooms, and buildings. They are also able to access the tool via their mobile device by scanning QR code on screen.
 ---
