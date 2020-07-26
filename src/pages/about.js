@@ -20,6 +20,7 @@ const AboutPage = ({ data }, location) => {
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
             About
           </h2>
+
           <figure className="kg-card kg-image-card profile-pic">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}

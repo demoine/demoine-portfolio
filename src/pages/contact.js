@@ -17,7 +17,7 @@ const ElementsPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
+        title="Contact"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
@@ -25,11 +25,15 @@ const ElementsPage = ({ data }, location) => {
         <div className="post-content-body">
           <h2 id="heading-level-2">Contact</h2>
 
-          - <form method="post" action="#">
-+ <form method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
-+   <input type="hidden" name="bot-field" />
-+   <input type="hidden" name="form-name" value="contact" />
-  ...
+          <form
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            name="contact"
+          >
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
+
             <div className="row gtr-uniform">
               <div className="col-12 ">
                 <input

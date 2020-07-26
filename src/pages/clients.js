@@ -14,7 +14,7 @@ const ElementsPage = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
+        title="Clients"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
@@ -24,7 +24,6 @@ const ElementsPage = ({ data }, location) => {
           <p style={{ textAlign: "center" }}>
             Below is a list of clients I've had the pleasure of working with.
           </p>
-          <hr />
 
           <div className="row">
             <div className="col">

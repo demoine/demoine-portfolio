@@ -177,7 +177,6 @@ body {
 
 .nav-current a,
 .site-head a:hover {
-  text-decoration: none;
   color: rgb(171, 171, 171);
   opacity: 1;
 }
@@ -383,7 +382,7 @@ body {
     transform: scale(1) translateY(0px);
   }
   .site-head-open .nav-current a {
-    border-bottom: var(--color-base) 2px solid;
+    border-bottom: var(--color-base) 0px solid;
   }
   .site-head-open .site-head-right a {
     opacity: 0.5;
@@ -428,7 +427,7 @@ body {
 }
 
 .post-card-large {
-  flex: 1 1 100%;
+  flex: 1 1 1 100%;
 }
 
 .post-card-link {
