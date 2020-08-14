@@ -13,7 +13,7 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="ABout" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
@@ -46,7 +46,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  Adobe XD
                 </div>
               </div>
               <div className="col">
@@ -57,7 +57,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  Figma
                 </div>
               </div>
               <div className="col">
@@ -68,7 +68,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  Sketch
                 </div>
               </div>
               <div className="col">
@@ -79,54 +79,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  auto
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  auto
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  auto
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  auto
+                  Principle
                 </div>
               </div>
             </div>
@@ -140,7 +93,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  HTML5
                 </div>
               </div>
               <div className="col">
@@ -151,7 +104,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  CSS3
                 </div>
               </div>
               <div className="col">
@@ -162,7 +115,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  JavaScript
                 </div>
               </div>
               <div className="col">
@@ -173,7 +126,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  ReactJS
                 </div>
               </div>
             </div>
@@ -187,7 +140,54 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  Adobe Creative Suite
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  Adobe Premier
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  Adobe After Effects
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  Davinci Resolve
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  Visual Studio Code
                 </div>
               </div>
               <div className="col">
