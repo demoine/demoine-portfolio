@@ -736,4 +736,5 @@ body {
 
 .skill-logo img {
   padding: 25px;
+  max-height: 150px;
 }

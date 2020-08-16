@@ -58,7 +58,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={XDLogo} alt="Adobe XD" />
@@ -69,7 +69,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={FigmaLogo} alt="Figma" />
@@ -80,7 +80,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={SketchLogo} alt="Sketch" />
@@ -91,7 +91,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={PrincipleLogo} alt="Principle" />
@@ -105,7 +105,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={PhotoshopLogo} alt="Adobe Photoshop" />
@@ -116,7 +116,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={IllustratorLogo} alt="Adobe Illustrator" />
@@ -127,7 +127,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={AfterEffectsLogo} alt="Adobe After Effects" />
@@ -138,7 +138,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={PremierProLogo} alt="Adobe Primier Pro" />
@@ -152,7 +152,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={VisualStudioCodeLogo} alt="Visual Studio Code" />
@@ -163,7 +163,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={Html5Logo} alt="HTML(5)" />
@@ -174,7 +174,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={Css3Logo} alt="CSS(3)" />
@@ -185,7 +185,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={JavascriptLogo} alt="JavaScript" />
@@ -199,7 +199,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={ReactJsLogo} alt="ReactJS" />
@@ -210,29 +210,11 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "#eee",
+                    background: "transparent",
                   }}
                 >
                   <img src={GsapLogo} alt="GSAP" />
                 </div>
-              </div>
-              <div className="col skill-logo">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                ></div>
-              </div>
-              <div className="col skill-logo">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                ></div>
               </div>
             </div>
           </div>
