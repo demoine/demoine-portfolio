@@ -201,6 +201,16 @@ const AboutPage = ({ data }, location) => {
                     textAlign: "center",
                     background: "transparent",
                   }}
+                ></div>
+              </div>
+
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
                 >
                   <img src={ReactJsLogo} alt="ReactJS" />
                 </div>
@@ -215,6 +225,15 @@ const AboutPage = ({ data }, location) => {
                 >
                   <img src={GsapLogo} alt="GSAP" />
                 </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                ></div>
               </div>
             </div>
           </div>
