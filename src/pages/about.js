@@ -48,7 +48,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  <ReactLogo />
+                  <XDLogo />
                 </div>
               </div>
               <div className="col">
