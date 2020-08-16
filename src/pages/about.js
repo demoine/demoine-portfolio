@@ -6,6 +6,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import XDLogo from "../../content/assets/icons/Adobe_XD_CC_icon.svg"
+import FigmaLogo from "../../content/assets/icons/figma.svg"
+import SketchLogo from "../../content/assets/icons/sketch.svg"
+import PrincipleLogo from "../../content/assets/icons/principle-app"
+import PhotoshopLogo from "../../content/assets/icons/Adobe_Photoshop_CC_icon.svg"
+import IllustratorLogo from "../../content/assets/icons/Adobe_Illustrator_CC_icon.svg"
+import AfterEffectsLogo from "../../content/assets/icons/Adobe_After_Effects_CC_icon.svg"
+import PremierProLogo from "../../content/assets/icons/Adobe_Premiere_Pro_CC_icon.svg"
+import VisualStudioCodeLogo from "../../content/assets/icons/visual-studio-code.svg"
+import Html5Logo from "../../content/assets/icons/html-5.svg"
+import Css3Logo from "../../content/assets/icons/css-3.svg"
+import JavascriptLogo from "../../content/assets/icons/javascript.svg"
+import ReactJsLogo from "../../content/assets/icons/react.svg"
+import GsapLogo from "../../content/assets/icons/GSAP.svg"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -40,7 +53,7 @@ const AboutPage = ({ data }, location) => {
           <h3 id="dynamic-styles">Skills</h3>
           <div>
             <div className="row">
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -48,10 +61,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  <img src={XDLogo} alt="XD Logo" />
+                  <img src={XDLogo} alt="Adobe XD" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -59,10 +72,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Figma
+                  <img src={FigmaLogo} alt="Figma" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -70,10 +83,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Sketch
+                  <img src={SketchLogo} alt="Sketch" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -81,60 +94,13 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Principle
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  HTML5
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  CSS3
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  JavaScript
-                </div>
-              </div>
-              <div className="col">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "#eee",
-                  }}
-                >
-                  ReactJS
+                  <img src={PrincipleLogo} alt="Principle" />
                 </div>
               </div>
             </div>
 
             <div className="row">
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -142,10 +108,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Adobe Creative Suite
+                  <img src={PhotoshopLogo} alt="Adobe Photoshop" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -153,10 +119,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Adobe Premier
+                  <img src={IllustratorLogo} alt="Adobe Illustrator" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -164,10 +130,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Adobe After Effects
+                  <img src={AfterEffectsLogo} alt="Adobe After Effects" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -175,13 +141,13 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Davinci Resolve
+                  <img src={PremierProLogo} alt="Adobe Primier Pro" />
                 </div>
               </div>
             </div>
 
             <div className="row">
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -189,10 +155,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  Visual Studio Code
+                  <img src={VisualStudioCodeLogo} alt="Visual Studio Code" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -200,10 +166,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  <img src={Html5Logo} alt="HTML(5)" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -211,10 +177,10 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  <img src={Css3Logo} alt="CSS(3)" />
                 </div>
               </div>
-              <div className="col">
+              <div className="col skill-logo">
                 <div
                   style={{
                     padding: "1rem 0",
@@ -222,8 +188,51 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  auto
+                  <img src={JavascriptLogo} alt="JavaScript" />
                 </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={ReactJsLogo} alt="ReactJS" />
+                </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={GsapLogo} alt="GSAP" />
+                </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                ></div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                ></div>
               </div>
             </div>
           </div>

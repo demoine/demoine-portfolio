@@ -733,3 +733,7 @@ body {
 .page-template .post-content-body h3 {
   text-align: center;
 }
+
+.skill-logo img {
+  padding: 25px;
+}
