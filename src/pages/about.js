@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { ReactComponent as XDLogo } from "../../content/assets/icons/Adobe_XD_CC_icon.svg"
+import XDLogo from "../../content/assets/icons/Adobe_XD_CC_icon.svg"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -48,7 +48,7 @@ const AboutPage = ({ data }, location) => {
                     background: "#eee",
                   }}
                 >
-                  <XDLogo />
+                  <img src={XDLogo} alt="XD Logo" />
                 </div>
               </div>
               <div className="col">
