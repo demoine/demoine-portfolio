@@ -1,17 +1,17 @@
 ---
-title: Corporate Headquarters App
+title: Project 1
 date: "2020-07-24"
 thumbnail: ./tech-thumbnail.png
-description: Corporate headquarters app that allows users to locate available shared spaces throught the building.
+description:
 ---
 
 <p style="text-align:center;"><strong>When:</strong> 2019 <span style="margin:0 20px;">&nbsp;</span><strong>Role:</strong> Interaction Design</p>
 
-![Fruits](./mike-dorner-173503-unsplash.jpg)
+![Image 1](./mike-dorner-173503-unsplash.jpg)
 
 <div class="kg-card kg-image-card kg-width-wide">
 
-![Fruits](./mike-dorner-173504-unsplash.jpg)
+![Image 2](./mike-dorner-173504-unsplash.jpg)
 
 </div>
 
