@@ -44,10 +44,9 @@ const AboutPage = ({ data }, location) => {
           </figure>
 
           <p className="description">
-            Interaction Designer currently crafting interactive kiosks at Visix.
-            Studied Interactive Media Design at The Art Institute of Atlanta.
-            Aside from work I enjoy spending time with family, photography,
-            woodworking, and voice acting.
+            Interaction Designer currently crafting interactive experiences at <a href="https://visix.com" target="_blank">Visix</a>.
+            Studied Interactive Media Design at <a href="https://www.artinstitutes.edu/" target="_blank"></a>The Art Institute of Atlanta</a>.
+            Aside from work I enjoy spending time with family, photography, woodworking, and voice acting.
           </p>
 
           <h3 id="dynamic-styles">Skills</h3>

@@ -735,8 +735,6 @@ body {
 }
 
 .skill-logo img {
-  padding: 25px;
-  max-height: 150px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: 0.5s linear;
@@ -744,8 +742,6 @@ body {
 }
 
 .skill-logo img:hover {
-  padding: 25px;
-  max-height: 150px;
   -webkit-filter: grayscale(0) !important;
   filter: grayscale(0) !important;
 }
