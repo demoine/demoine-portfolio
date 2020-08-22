@@ -27,14 +27,10 @@ body {
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
-
-    background-position: 50%;
-    background-image: url(../../../content/assets/noise.png);
-    pointer-events: none;
-    animation: noise 1s steps(2) infinite;
-}
-
-
+  background-position: 50%;
+  background-image: url(../../../content/assets/noise.png);
+  pointer-events: none;
+  animation: noise 1s steps(2) infinite;
 }
 
 .img {
@@ -753,5 +749,3 @@ body {
   -webkit-filter: grayscale(0) !important;
   filter: grayscale(0) !important;
 }
-
-
