@@ -9,8 +9,8 @@ const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
   return (
-    <div class="bg"></div>
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
+      <div class="bg"></div>
       <header className="site-head">
         <div className="site-head-container">
           <a
