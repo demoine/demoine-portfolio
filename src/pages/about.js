@@ -20,6 +20,13 @@ import JavascriptLogo from "../../content/assets/skills/javascript.png"
 import ReactJsLogo from "../../content/assets/skills/react.png"
 import GsapLogo from "../../content/assets/skills/GSAP.png"
 
+import BootstrapLogo from "../../content/assets/skills/bootstrap.png"
+import GatsbyLogo from "../../content/assets/skills/gatsby.png"
+import GitLogo from "../../content/assets/skills/git-icon.png"
+import MysqlLogo from "../../content/assets/skills/mysql.png"
+import NpmLogo from "../../content/assets/skills/npm.png"
+import WordpressLogo from "../../content/assets/skills/wordpress-icon.png"
+
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
@@ -207,20 +214,11 @@ const AboutPage = ({ data }, location) => {
                     textAlign: "center",
                     background: "transparent",
                   }}
-                ></div>
-              </div>
-
-              <div className="col skill-logo">
-                <div
-                  style={{
-                    padding: "1rem 0",
-                    textAlign: "center",
-                    background: "transparent",
-                  }}
                 >
                   <img src={ReactJsLogo} alt="ReactJS" />
                 </div>
               </div>
+
               <div className="col skill-logo">
                 <div
                   style={{
@@ -239,7 +237,68 @@ const AboutPage = ({ data }, location) => {
                     textAlign: "center",
                     background: "transparent",
                   }}
-                ></div>
+                >
+                  <img src={BootstrapLogo} alt="Bootstrap" />
+                </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                >
+                  <img src={GatsbyLogo} alt="Gatsby" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                >
+                  <img src={GitLogo} alt="Git" />
+                </div>
+              </div>
+
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                >
+                  <img src={MysqlLogo} alt="MySql" />
+                </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                >
+                  <img src={NpmLogo} alt="NPM" />
+                </div>
+              </div>
+              <div className="col skill-logo">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "transparent",
+                  }}
+                >
+                  <img src={WordpressLogo} alt="Wordpress" />
+                </div>
               </div>
             </div>
           </div>
