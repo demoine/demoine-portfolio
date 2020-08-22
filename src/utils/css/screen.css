@@ -746,6 +746,7 @@ body {
   filter: grayscale(0) !important;
 }
 
+/*
 .bg {
   position: fixed;
   top: -50%;
@@ -797,3 +798,4 @@ body {
     transform: translate(5%, 0);
   }
 }
+*/
