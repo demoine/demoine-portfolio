@@ -799,3 +799,86 @@ body {
   }
 }
 */
+
+/*About Page Styles*/
+
+.portrait {
+  z-index: -1;
+}
+
+.heading {
+  padding: 0;
+}
+
+.about-hero {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+}
+.u-textCenter {
+  text-align: center;
+}
+.Grid-cell {
+  flex: 0 0 100%;
+}
+
+/* Tablet (medium) screens */
+@media (min-width: 30em) {
+  .Grid-cell {
+    flex: 1;
+  }
+
+  .heading {
+    position: relative;
+    margin-right: 10vw;
+    vertical-align: middle;
+  }
+
+  .portrait {
+    top: 50%;
+    right: 0;
+    z-index: -1;
+    margin-top: -5.083vw;
+  }
+
+  .about-hero {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    height: 35vh;
+    line-height: 35vh;
+  }
+}
+
+/* Large screens */
+@media (min-width: 48em) {
+  .Grid--cols-2 > .Grid-cell,
+  .Grid--cols-3 > .Grid-cell,
+  .Grid--cols-4 > .Grid-cell,
+  .Grid--cols-6 > .Grid-cell,
+  .Grid--cols-12 > .Grid-cell {
+    flex: 1;
+  }
+
+  .heading {
+    position: relative;
+    margin-left: 10vw;
+    vertical-align: middle;
+  }
+
+  .portrait {
+    top: 50%;
+    right: 0;
+    z-index: -1;
+    margin-top: -5.083vw;
+  }
+
+  .about-hero {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    height: 60vh;
+    line-height: 60vh;
+  }
+}

@@ -5,6 +5,9 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import DemoinePortrait from "../../content/assets/profile-pic.jpg"
+import DemoineHeading from "../../content/assets/demoine-heading.svg"
+
 import XDLogo from "../../content/assets/skills/Adobe_XD_CC_icon.png"
 import FigmaLogo from "../../content/assets/skills/figma.png"
 import SketchLogo from "../../content/assets/skills/sketch.png"
@@ -37,19 +40,17 @@ const AboutPage = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
+      <div class="about-hero Grid--gutters Grid--cols-2 u-textCenter">
+        <div class="Grid-cell">
+          <img src={DemoinePortrait} alt="DeMoine Portrait" />
+        </div>
+        <div class="Grid-cell heading">
+          <img src={DemoineHeading} alt="DeMoine" />
+        </div>
+      </div>
+
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            About
-          </h2>
-
-          <figure className="kg-card kg-image-card profile-pic">
-            <Img
-              fluid={data.benchAccounting.childImageSharp.fluid}
-              className="kg-image"
-            />
-          </figure>
-
           <p className="description">
             Interaction Designer currently crafting interactive experiences at{" "}
             <a href="https://visix.com" target="_blank">
