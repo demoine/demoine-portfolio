@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import DemoinePortrait from "../../content/assets/profile-pic.jpg"
+import DemoinePortrait from "../../content/assets/profile-pic.png"
 import DemoineHeading from "../../content/assets/demoine-heading.svg"
 
 import XDLogo from "../../content/assets/skills/Adobe_XD_CC_icon.png"
@@ -41,30 +41,25 @@ const AboutPage = ({ data }, location) => {
       <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <div class="about-hero Grid--gutters Grid--cols-2 u-textCenter">
-        <div class="Grid-cell">
+        <div class="Grid-cell portrait">
           <img src={DemoinePortrait} alt="DeMoine Portrait" />
         </div>
         <div class="Grid-cell heading">
           <img src={DemoineHeading} alt="DeMoine" />
+          <div className="description">
+            <p>
+              Interaction Designer currently crafting interactive experiences at
+              Visix. Studied Interactive Media Design at The Art Institute of
+              Atlanta. Aside from work I enjoy spending time with family,
+              photography, woodworking, and voice acting.
+            </p>
+          </div>
         </div>
       </div>
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-          <p className="description">
-            Interaction Designer currently crafting interactive experiences at{" "}
-            <a href="https://visix.com" target="_blank">
-              Visix
-            </a>
-            . Studied Interactive Media Design at{" "}
-            <a href="https://www.artinstitutes.edu/" target="_blank">
-              The Art Institute of Atlanta
-            </a>
-            . Aside from work I enjoy spending time with family, photography,
-            woodworking, and voice acting.
-          </p>
-
-          <h3 id="dynamic-styles">Skills</h3>
+          <h3 className="section-title">Skills</h3>
           <div>
             <div className="row">
               <div className="col skill-logo">

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "MonumentGrotesk-Bold";
+  src: url("../../../../static/fonts/MonumentGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Monument Grotesk";
+  src: url("../../../../static/fonts/MonumentGrotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "MonumentGrotesk-Medium";
+  src: url("../../../../static/fonts/MonumentGrotesk-Medium.ttf");
+}

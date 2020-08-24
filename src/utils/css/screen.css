@@ -23,7 +23,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Monument Grotesk", sans-serif;
   background: var(--color-bg);
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
@@ -187,7 +187,8 @@ body {
 
 .site-head-left [aria-current],
 .site-head-right [aria-current] {
-  text-decoration: line-through;
+  font-weight: bold;
+  color: #000 !important;
 }
 
 .profile-pic .kg-image {
@@ -502,7 +503,7 @@ body {
 }
 
 .post-card.no-image:hover .post-card-title {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 1200px) {
@@ -746,60 +747,6 @@ body {
   filter: grayscale(0) !important;
 }
 
-/*
-.bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent
-    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  background-repeat: repeat;
-  animation: bg-animation 0.2s infinite;
-  opacity: 0.9;
-  visibility: visible;
-}
-
-@keyframes bg-animation {
-  0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5%, -5%);
-  }
-  20% {
-    transform: translate(-10%, 5%);
-  }
-  30% {
-    transform: translate(5%, -10%);
-  }
-  40% {
-    transform: translate(-5%, 15%);
-  }
-  50% {
-    transform: translate(-10%, 5%);
-  }
-  60% {
-    transform: translate(15%, 0);
-  }
-  70% {
-    transform: translate(0, 10%);
-  }
-  80% {
-    transform: translate(-15%, 0);
-  }
-  90% {
-    transform: translate(10%, 5%);
-  }
-  100% {
-    transform: translate(5%, 0);
-  }
-}
-*/
-
 /*About Page Styles*/
 
 .portrait {
@@ -823,10 +770,16 @@ body {
   flex: 0 0 100%;
 }
 
+.section-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
 /* Tablet (medium) screens */
 @media (min-width: 30em) {
   .Grid-cell {
-    flex: 1;
+    flex: 0 0 80%;
+    margin: 0 auto;
   }
 
   .heading {
@@ -836,18 +789,14 @@ body {
   }
 
   .portrait {
-    top: 50%;
-    right: 0;
     z-index: -1;
-    margin-top: -5.083vw;
   }
 
   .about-hero {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    height: 35vh;
-    line-height: 35vh;
+    height: 75vh;
   }
 }
 
@@ -859,26 +808,87 @@ body {
   .Grid--cols-6 > .Grid-cell,
   .Grid--cols-12 > .Grid-cell {
     flex: 1;
-  }
-
-  .heading {
-    position: relative;
-    margin-left: 10vw;
-    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .portrait {
-    top: 50%;
-    right: 0;
     z-index: -1;
-    margin-top: -5.083vw;
+    flex: 0 0 30%;
+  }
+
+  .heading img {
+    position: relative;
+    right: 50px;
+    top: 10vh;
+    padding-right: 20%;
+    z-index: -1;
   }
 
   .about-hero {
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    height: 60vh;
-    line-height: 60vh;
+    height: 40vh;
+  }
+
+  .description {
+    position: relative;
+    right: 50px;
+    top: 10vh;
+    text-align: left;
+    width: 80%;
+  }
+
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url("../../../content/assets/noise.png") repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.2s infinite;
+    opacity: 0.9;
+    visibility: visible;
+    z-index: -1;
+  }
+
+  @keyframes bg-animation {
+    0% {
+      transform: translate(0, 0);
+    }
+    10% {
+      transform: translate(-5%, -5%);
+    }
+    20% {
+      transform: translate(-10%, 5%);
+    }
+    30% {
+      transform: translate(5%, -10%);
+    }
+    40% {
+      transform: translate(-5%, 15%);
+    }
+    50% {
+      transform: translate(-10%, 5%);
+    }
+    60% {
+      transform: translate(15%, 0);
+    }
+    70% {
+      transform: translate(0, 10%);
+    }
+    80% {
+      transform: translate(-15%, 0);
+    }
+    90% {
+      transform: translate(10%, 5%);
+    }
+    100% {
+      transform: translate(5%, 0);
+    }
   }
 }
