@@ -45,7 +45,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {
-          families: ["Lato, Dank Mono"],
+          families: ["Monument Grotesk"],
           urls: ["/fonts/fonts.css"],
         },
       },
