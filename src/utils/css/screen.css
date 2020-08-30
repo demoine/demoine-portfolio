@@ -761,8 +761,8 @@ body {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  margin-top: 5vh;
 }
+
 .u-textCenter {
   text-align: center;
 }
@@ -775,6 +775,9 @@ body {
   font-weight: bold;
 }
 
+.skills {
+}
+
 /* Tablet (medium) screens */
 @media (min-width: 30em) {
   .Grid-cell {
@@ -782,14 +785,24 @@ body {
     margin: 0 auto;
   }
 
+  .about-hero {
+    margin-top: 5vh;
+    margin-bottom: -10vh;
+  }
+
   .heading {
     position: relative;
-    margin-right: 10vw;
     vertical-align: middle;
   }
 
   .portrait {
     z-index: -1;
+    text-align: center;
+    height: 70%;
+  }
+
+  .portrait img {
+    height: 100%;
   }
 
   .about-hero {
@@ -802,42 +815,41 @@ body {
 
 /* Large screens */
 @media (min-width: 48em) {
-  .Grid--cols-2 > .Grid-cell,
-  .Grid--cols-3 > .Grid-cell,
-  .Grid--cols-4 > .Grid-cell,
-  .Grid--cols-6 > .Grid-cell,
-  .Grid--cols-12 > .Grid-cell {
-    flex: 1;
+  .Grid-cell {
+    flex: 0 0 60%;
     margin: 0 auto;
-    padding: 0;
+  }
+
+  .about-hero {
+    margin-top: 10vh;
+    margin-bottom: -10vh;
   }
 
   .portrait {
     z-index: -1;
-    flex: 0 0 30%;
+    text-align: center;
+    height: 70%;
+  }
+
+  .portrait img {
+    height: 100%;
+  }
+
+  .heading {
+    width: 50%;
+    margin: 0 auto;
   }
 
   .heading img {
-    position: relative;
-    right: 50px;
-    top: 10vh;
-    padding-right: 20%;
-    z-index: -1;
-  }
-
-  .about-hero {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    height: 40vh;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
   }
 
   .description {
-    position: relative;
-    right: 50px;
-    top: 10vh;
-    text-align: left;
-    width: 80%;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
   }
 
   .bg {

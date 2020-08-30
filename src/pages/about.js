@@ -40,11 +40,11 @@ const AboutPage = ({ data }, location) => {
     <Layout title={siteTitle}>
       <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
-      <div class="about-hero Grid--gutters Grid--cols-2 u-textCenter">
-        <div class="Grid-cell portrait">
+      <div className="about-hero Grid--gutters Grid--cols-2">
+        <div className="Grid-cell portrait">
           <img src={DemoinePortrait} alt="DeMoine Portrait" />
         </div>
-        <div class="Grid-cell heading">
+        <div className="Grid-cell heading">
           <img src={DemoineHeading} alt="DeMoine" />
           <div className="description">
             <p>
@@ -57,8 +57,8 @@ const AboutPage = ({ data }, location) => {
         </div>
       </div>
 
-      <article className="post-content page-template no-image">
-        <div className="post-content-body">
+      <div className="post-content page-template no-image">
+        <div className="post-content-body skills">
           <h3 className="section-title">Skills</h3>
           <div>
             <div className="row">
@@ -299,7 +299,7 @@ const AboutPage = ({ data }, location) => {
             </div>
           </div>
         </div>
-      </article>
+      </div>
     </Layout>
   )
 }
