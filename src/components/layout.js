@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import logo from "../../content/assets/logo.png"
 
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import MailRoundedIcon from "@material-ui/icons/MailRounded"
 
 const Layout = props => {
   const { title, children } = props
@@ -46,6 +47,14 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
+              <a
+                href="mailto:hi@demoine.com"
+                title="Mail"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MailRoundedcon color="action" style={{ fontSize: 30 }} />
+              </a>
               <a
                 href="https://www.linkedin.com/in/demoine/"
                 title="LinkedIn"
