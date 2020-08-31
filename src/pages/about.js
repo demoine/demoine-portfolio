@@ -30,6 +30,22 @@ import MysqlLogo from "../../content/assets/skills/mysql.png"
 import NpmLogo from "../../content/assets/skills/npm.png"
 import WordpressLogo from "../../content/assets/skills/wordpress-icon.png"
 
+import Project01 from "../../content/assets/clients/charleston.png"
+import Project02 from "../../content/assets/clients/unlv.png"
+import Project03 from "../../content/assets/clients/cocacola.png"
+import Project04 from "../../content/assets/clients/crowneplaza.png"
+import Project05 from "../../content/assets/clients/dayton.png"
+import Project06 from "../../content/assets/clients/durex.png"
+import Project07 from "../../content/assets/clients/mit.png"
+import Project08 from "../../content/assets/clients/mlb.png"
+import Project09 from "../../content/assets/clients/msu.png"
+import Project10 from "../../content/assets/clients/ogilvy.png"
+import Project11 from "../../content/assets/clients/spanx.png"
+import Project12 from "../../content/assets/clients/takeda.png"
+import Project13 from "../../content/assets/clients/twf.png"
+import Project14 from "../../content/assets/clients/ua.png"
+import Project15 from "../../content/assets/clients/zoosk.png"
+
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
@@ -67,7 +83,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={XDLogo} alt="Adobe XD" />
@@ -78,7 +94,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={FigmaLogo} alt="Figma" />
@@ -89,7 +105,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={SketchLogo} alt="Sketch" />
@@ -100,7 +116,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={PrincipleLogo} alt="Principle" />
@@ -114,7 +130,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={PhotoshopLogo} alt="Adobe Photoshop" />
@@ -125,7 +141,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={IllustratorLogo} alt="Adobe Illustrator" />
@@ -136,7 +152,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={AfterEffectsLogo} alt="Adobe After Effects" />
@@ -147,7 +163,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={PremierProLogo} alt="Adobe Primier Pro" />
@@ -161,7 +177,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={VisualStudioCodeLogo} alt="Visual Studio Code" />
@@ -172,7 +188,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={Html5Logo} alt="HTML(5)" />
@@ -183,7 +199,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={Css3Logo} alt="CSS(3)" />
@@ -194,7 +210,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={JavascriptLogo} alt="JavaScript" />
@@ -208,7 +224,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={ReactJsLogo} alt="ReactJS" />
@@ -220,7 +236,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={GsapLogo} alt="GSAP" />
@@ -231,7 +247,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={BootstrapLogo} alt="Bootstrap" />
@@ -242,7 +258,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={GatsbyLogo} alt="Gatsby" />
@@ -256,7 +272,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={GitLogo} alt="Git" />
@@ -268,7 +284,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={MysqlLogo} alt="MySql" />
@@ -279,7 +295,7 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={NpmLogo} alt="NPM" />
@@ -290,11 +306,199 @@ const AboutPage = ({ data }, location) => {
                   style={{
                     padding: "1rem 0",
                     textAlign: "center",
-                    background: "transparent",
+                    background: "#eee",
                   }}
                 >
                   <img src={WordpressLogo} alt="Wordpress" />
                 </div>
+              </div>
+            </div>
+
+            <h3 className="section-title">Clients</h3>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project01} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project02} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project03} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project04} alt="Project Name" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project05} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project06} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project07} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project08} alt="Project Name" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project09} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project10} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project11} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project12} alt="Project Name" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project13} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project14} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                >
+                  <img src={Project15} alt="Project Name" />
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  style={{
+                    padding: "1rem 0",
+                    textAlign: "center",
+                    background: "#eee",
+                  }}
+                ></div>
               </div>
             </div>
           </div>
