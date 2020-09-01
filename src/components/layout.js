@@ -53,7 +53,7 @@ const Layout = props => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <MailRoundedcon color="action" style={{ fontSize: 30 }} />
+                <MailRoundedIcon color="action" style={{ fontSize: 30 }} />
               </a>
               <a
                 href="https://www.linkedin.com/in/demoine/"
