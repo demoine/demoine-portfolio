@@ -20,6 +20,7 @@ import Project12 from "../../content/assets/clients/takeda.png"
 import Project13 from "../../content/assets/clients/twf.png"
 import Project14 from "../../content/assets/clients/ua.png"
 import Project15 from "../../content/assets/clients/zoosk.png"
+import Project16 from "../../content/assets/clients/dtp.png"
 
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
@@ -223,7 +224,9 @@ const ElementsPage = ({ data }, location) => {
                   textAlign: "center",
                   background: "#eee",
                 }}
-              ></div>
+              >
+                <img src={Project16} alt="Project Name" />
+              </div>
             </div>
           </div>
         </div>
